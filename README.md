@@ -1,3 +1,3 @@
 # C-sharp
 
-# Projects and practice with C#
+Projects and practice with C#
