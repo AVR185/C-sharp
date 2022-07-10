@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CodeBeerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Break">
+    <Key>
+      <PropertyRef Name="BreakCode" />
+    </Key>
+    <Property Name="BreakCode" Type="Int32" Nullable="false" />
+    <Property Name="BreakReason" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CheckInOut" Relationship="Self.FK_pausa" FromRole="Break" ToRole="CheckInOut" />
+  </EntityType>
+  <EntityType Name="CheckInOut">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="Int32" Nullable="false" />
+    <Property Name="EmpCode" Type="Int32" Nullable="false" />
+    <Property Name="BeginWork" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndWork" Type="DateTime" Precision="3" />
+    <Property Name="BreakCode" Type="Int32" />
+    <Property Name="BeginBreak" Type="DateTime" Precision="3" />
+    <Property Name="EndBreak" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Break" Relationship="Self.FK_pausa" FromRole="CheckInOut" ToRole="Break" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_emp" FromRole="CheckInOut" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmpCode" />
+    </Key>
+    <Property Name="EmpCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmpName" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmpJob" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NumberId" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Phone2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="CheckInOut" Relationship="Self.FK_emp" FromRole="Employee" ToRole="CheckInOut" />
+  </EntityType>
+  <Association Name="FK_pausa">
+    <End Role="Break" Type="Self.Break" Multiplicity="0..1" />
+    <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Break">
+        <PropertyRef Name="BreakCode" />
+      </Principal>
+      <Dependent Role="CheckInOut">
+        <PropertyRef Name="BreakCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_emp">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmpCode" />
+      </Principal>
+      <Dependent Role="CheckInOut">
+        <PropertyRef Name="EmpCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CodeBeerDb" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Break" EntityType="Self.Break" />
+    <EntitySet Name="CheckInOut" EntityType="Self.CheckInOut" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <AssociationSet Name="FK_pausa" Association="Self.FK_pausa">
+      <End Role="Break" EntitySet="Break" />
+      <End Role="CheckInOut" EntitySet="CheckInOut" />
+    </AssociationSet>
+    <AssociationSet Name="FK_emp" Association="Self.FK_emp">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="CheckInOut" EntitySet="CheckInOut" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

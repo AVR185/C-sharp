@@ -1,0 +1,250 @@
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\CodeBeerProject.exe.config
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\CodeBeerProject.exe
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\CodeBeerProject.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.csprojAssemblyReference.cache
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\App.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.cache
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.lref
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\MainWindow.baml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.g.resources
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.Properties.Resources.resources
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.GenerateResource.cache
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.exe
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\EntityFramework.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\FluentWPF.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\Google.Protobuf.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Buffers.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Memory.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\EntityFramework.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\Google.Protobuf.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\Google.Protobuf.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Buffers.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Memory.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CopyComplete
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\CodeBeerProject_Content.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\App.baml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\LoginView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\LoginView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\ProfileView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\ProfileView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\UserControlReloj.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\UserControlReloj.baml
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\DetailView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication\CodeBeerProject\obj\Debug\Views\DetailView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\CodeBeerProject.exe.config
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\CodeBeerProject.exe
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\CodeBeerProject.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\EntityFramework.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\FluentWPF.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\Google.Protobuf.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Buffers.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Memory.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\EntityFramework.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\Google.Protobuf.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\Google.Protobuf.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Buffers.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Memory.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.csprojAssemblyReference.cache
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\DetailView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\LoginView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\ProfileView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\UserControlReloj.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\App.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject_Content.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.cache
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.lref
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\App.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\DetailView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\LoginView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\MainWindow.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\ProfileView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\Views\UserControlReloj.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.g.resources
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.Properties.Resources.resources
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.GenerateResource.cache
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CopyComplete
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.exe
+C:\Users\umarf\source\repos\CodeBeerApplication_v0.5\CodeBeerProject\obj\Debug\CodeBeerProject.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.exe.config
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.exe
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\FluentWPF.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Buffers.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Memory.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Buffers.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Memory.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csprojAssemblyReference.cache
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DetailView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\LoginView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\ProfileView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\UserControlReloj.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\App.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_Content.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.cache
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.lref
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\App.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DetailView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\LoginView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\MainWindow.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\ProfileView.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\UserControlReloj.baml
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.g.resources
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.Properties.Resources.resources
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.GenerateResource.cache
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CopyComplete
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.exe
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.pdb
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DataGridView.g.cs
+C:\Users\umarf\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DataGridView.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.exe.config
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.exe
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.pdb
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\FluentWPF.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Buffers.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Memory.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.pdb
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Buffers.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Memory.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DataGridView.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DetailView.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\LoginView.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\ProfileView.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\UserControlReloj.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\App.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_Content.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.cache
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.lref
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\App.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DataGridView.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DetailView.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\LoginView.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\MainWindow.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\ProfileView.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\UserControlReloj.baml
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.g.resources
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.Properties.Resources.resources
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.GenerateResource.cache
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CoreCompileInputs.cache
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CopyComplete
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.exe
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.pdb
+C:\Users\avr_h\OneDrive\Documentos\2º DAM\Interfaces\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csprojAssemblyReference.cache
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.exe.config
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.exe
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\CodeBeerProject.pdb
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\FluentWPF.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignColors.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Buffers.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Memory.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.pdb
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\Google.Protobuf.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignColors.pdb
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Buffers.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Memory.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csprojAssemblyReference.cache
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DataGridView.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DetailView.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\LoginView.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\MainWindow.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\ProfileView.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\UserControlReloj.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\App.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_Content.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.cache
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject_MarkupCompile.lref
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\App.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DataGridView.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\DetailView.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\LoginView.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\MainWindow.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\ProfileView.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\UserControlReloj.baml
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.g.resources
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.Properties.Resources.resources
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.GenerateResource.cache
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CoreCompileInputs.cache
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.csproj.CopyComplete
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.exe
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\CodeBeerProject.pdb
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\Autor.g.cs
+C:\Users\avr_h\source\repos\CodeBeerApplication_v1.0\CodeBeerProject\obj\Debug\Views\Autor.baml

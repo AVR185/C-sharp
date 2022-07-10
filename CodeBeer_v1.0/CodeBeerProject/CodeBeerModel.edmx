@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CodeBeerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Break">
+          <Key>
+            <PropertyRef Name="BreakCode" />
+          </Key>
+          <Property Name="BreakCode" Type="int" Nullable="false" />
+          <Property Name="BreakReason" Type="varchar" MaxLength="80" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CheckInOut">
+          <Key>
+            <PropertyRef Name="RecordId" />
+          </Key>
+          <Property Name="RecordId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EmpCode" Type="int" Nullable="false" />
+          <Property Name="BeginWork" Type="datetime" Nullable="false" />
+          <Property Name="EndWork" Type="datetime" />
+          <Property Name="BreakCode" Type="int" />
+          <Property Name="BeginBreak" Type="datetime" />
+          <Property Name="EndBreak" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="EmpCode" />
+          </Key>
+          <Property Name="EmpCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EmpName" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="EmpJob" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="DateOfBirth" Type="datetime" Nullable="false" />
+          <Property Name="NumberId" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Phone1" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Phone2" Type="varchar" MaxLength="20" />
+          <Property Name="IsAdmin" Type="bit" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_emp">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="EmpCode" />
+            </Principal>
+            <Dependent Role="CheckInOut">
+              <PropertyRef Name="EmpCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pausa">
+          <End Role="Break" Type="Self.Break" Multiplicity="0..1" />
+          <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Break">
+              <PropertyRef Name="BreakCode" />
+            </Principal>
+            <Dependent Role="CheckInOut">
+              <PropertyRef Name="BreakCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CodeBeerModelStoreContainer">
+          <EntitySet Name="Break" EntityType="Self.Break" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CheckInOut" EntityType="Self.CheckInOut" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_emp" Association="Self.FK_emp">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="CheckInOut" EntitySet="CheckInOut" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pausa" Association="Self.FK_pausa">
+            <End Role="Break" EntitySet="Break" />
+            <End Role="CheckInOut" EntitySet="CheckInOut" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CodeBeerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Break">
+          <Key>
+            <PropertyRef Name="BreakCode" />
+          </Key>
+          <Property Name="BreakCode" Type="Int32" Nullable="false" />
+          <Property Name="BreakReason" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="CheckInOut" Relationship="Self.FK_pausa" FromRole="Break" ToRole="CheckInOut" />
+        </EntityType>
+        <EntityType Name="CheckInOut">
+          <Key>
+            <PropertyRef Name="RecordId" />
+          </Key>
+          <Property Name="RecordId" Type="Int32" Nullable="false" />
+          <Property Name="EmpCode" Type="Int32" Nullable="false" />
+          <Property Name="BeginWork" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EndWork" Type="DateTime" Precision="3" />
+          <Property Name="BreakCode" Type="Int32" />
+          <Property Name="BeginBreak" Type="DateTime" Precision="3" />
+          <Property Name="EndBreak" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Break" Relationship="Self.FK_pausa" FromRole="CheckInOut" ToRole="Break" />
+          <NavigationProperty Name="Employee" Relationship="Self.FK_emp" FromRole="CheckInOut" ToRole="Employee" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="EmpCode" />
+          </Key>
+          <Property Name="EmpCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EmpName" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="EmpJob" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="NumberId" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phone1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Phone2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="IsAdmin" Type="Boolean" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="CheckInOut" Relationship="Self.FK_emp" FromRole="Employee" ToRole="CheckInOut" />
+        </EntityType>
+        <Association Name="FK_pausa">
+          <End Role="Break" Type="Self.Break" Multiplicity="0..1" />
+          <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Break">
+              <PropertyRef Name="BreakCode" />
+            </Principal>
+            <Dependent Role="CheckInOut">
+              <PropertyRef Name="BreakCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_emp">
+          <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+          <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="EmpCode" />
+            </Principal>
+            <Dependent Role="CheckInOut">
+              <PropertyRef Name="EmpCode" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CodeBeerDb" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Break" EntityType="Self.Break" />
+          <EntitySet Name="CheckInOut" EntityType="Self.CheckInOut" />
+          <EntitySet Name="Employee" EntityType="Self.Employee" />
+          <AssociationSet Name="FK_pausa" Association="Self.FK_pausa">
+            <End Role="Break" EntitySet="Break" />
+            <End Role="CheckInOut" EntitySet="CheckInOut" />
+          </AssociationSet>
+          <AssociationSet Name="FK_emp" Association="Self.FK_emp">
+            <End Role="Employee" EntitySet="Employee" />
+            <End Role="CheckInOut" EntitySet="CheckInOut" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CodeBeerModelStoreContainer" CdmEntityContainer="CodeBeerDb">
+          <EntitySetMapping Name="Break">
+            <EntityTypeMapping TypeName="CodeBeerModel.Break">
+              <MappingFragment StoreEntitySet="Break">
+                <ScalarProperty Name="BreakCode" ColumnName="BreakCode" />
+                <ScalarProperty Name="BreakReason" ColumnName="BreakReason" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CheckInOut">
+            <EntityTypeMapping TypeName="CodeBeerModel.CheckInOut">
+              <MappingFragment StoreEntitySet="CheckInOut">
+                <ScalarProperty Name="RecordId" ColumnName="RecordId" />
+                <ScalarProperty Name="EmpCode" ColumnName="EmpCode" />
+                <ScalarProperty Name="BeginWork" ColumnName="BeginWork" />
+                <ScalarProperty Name="EndWork" ColumnName="EndWork" />
+                <ScalarProperty Name="BreakCode" ColumnName="BreakCode" />
+                <ScalarProperty Name="BeginBreak" ColumnName="BeginBreak" />
+                <ScalarProperty Name="EndBreak" ColumnName="EndBreak" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employee">
+            <EntityTypeMapping TypeName="CodeBeerModel.Employee">
+              <MappingFragment StoreEntitySet="Employee">
+                <ScalarProperty Name="EmpCode" ColumnName="EmpCode" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="EmpJob" ColumnName="EmpJob" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="NumberId" ColumnName="NumberId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+                <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

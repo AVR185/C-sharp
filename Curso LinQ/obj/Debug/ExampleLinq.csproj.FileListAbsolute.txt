@@ -1,0 +1,17 @@
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\ExampleLinq.exe.config
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\ExampleLinq.exe
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\ExampleLinq.pdb
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\EntityFramework.dll
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\SQLite.CodeFirst.dll
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\System.Data.SQLite.dll
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\EntityFramework.xml
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\bin\Debug\System.Data.SQLite.xml
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\obj\Debug\ExampleLinq.csprojAssemblyReference.cache
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\obj\Debug\ExampleLinq.csproj.CoreCompileInputs.cache
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\obj\Debug\ExampleLinq.csproj.CopyComplete
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\obj\Debug\ExampleLinq.exe
+C:\Users\jvidalot\Source\Repos\ExampleLinq\ExampleLinq\obj\Debug\ExampleLinq.pdb

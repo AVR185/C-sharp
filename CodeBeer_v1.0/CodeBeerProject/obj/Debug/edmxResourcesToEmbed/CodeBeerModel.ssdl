@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CodeBeerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Break">
+    <Key>
+      <PropertyRef Name="BreakCode" />
+    </Key>
+    <Property Name="BreakCode" Type="int" Nullable="false" />
+    <Property Name="BreakReason" Type="varchar" MaxLength="80" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CheckInOut">
+    <Key>
+      <PropertyRef Name="RecordId" />
+    </Key>
+    <Property Name="RecordId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmpCode" Type="int" Nullable="false" />
+    <Property Name="BeginWork" Type="datetime" Nullable="false" />
+    <Property Name="EndWork" Type="datetime" />
+    <Property Name="BreakCode" Type="int" />
+    <Property Name="BeginBreak" Type="datetime" />
+    <Property Name="EndBreak" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmpCode" />
+    </Key>
+    <Property Name="EmpCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmpName" Type="varchar" MaxLength="70" Nullable="false" />
+    <Property Name="EmpJob" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="DateOfBirth" Type="datetime" Nullable="false" />
+    <Property Name="NumberId" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone1" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Phone2" Type="varchar" MaxLength="20" />
+    <Property Name="IsAdmin" Type="bit" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_emp">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmpCode" />
+      </Principal>
+      <Dependent Role="CheckInOut">
+        <PropertyRef Name="EmpCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_pausa">
+    <End Role="Break" Type="Self.Break" Multiplicity="0..1" />
+    <End Role="CheckInOut" Type="Self.CheckInOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Break">
+        <PropertyRef Name="BreakCode" />
+      </Principal>
+      <Dependent Role="CheckInOut">
+        <PropertyRef Name="BreakCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CodeBeerModelStoreContainer">
+    <EntitySet Name="Break" EntityType="Self.Break" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CheckInOut" EntityType="Self.CheckInOut" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_emp" Association="Self.FK_emp">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="CheckInOut" EntitySet="CheckInOut" />
+    </AssociationSet>
+    <AssociationSet Name="FK_pausa" Association="Self.FK_pausa">
+      <End Role="Break" EntitySet="Break" />
+      <End Role="CheckInOut" EntitySet="CheckInOut" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

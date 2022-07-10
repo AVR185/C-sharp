@@ -1,0 +1,95 @@
+﻿<Page x:Class="CodeBeerProject.Views.DataGridView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CodeBeerProject.Views"
+      xmlns:vrules="clr-namespace:CodeBeerProject.Models"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageDataGrid">
+
+    <DockPanel  Background="LightYellow">
+    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" IsEnabled="{Binding LoggedInEmployee.IsAdmin}">
+      <Button Command="{Binding NewRecordCommand}" Content="Nuevo" />
+      <Button Command="{Binding SaveRecordCommand}" Content="Guardar" Margin="20,0,20,0"/>
+      <Button Command="{Binding DeleteRecordCommand}" Content="Eliminar" />
+    </StackPanel>
+    <DataGrid x:Name="detailDataGrid" ItemsSource="{Binding CheckInOutList}"
+              AutoGenerateColumns="False" CanUserAddRows="False"
+              IsReadOnly="{Binding IsDataGridViewReadOnly}"
+              IsSynchronizedWithCurrentItem="True"
+              SelectedItem="{Binding SelectedRecord}"
+              >
+      <DataGrid.Resources>
+        <Style x:Key="errorStyle" TargetType="{x:Type TextBox}">
+          <Setter Property="Padding" Value="-2"/>
+          <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+              <Setter Property="Background" Value="Red"/>
+              <Setter Property="ToolTip" 
+                      Value="{Binding RelativeSource={RelativeSource Self},
+            Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+          </Style.Triggers>
+        </Style>
+      </DataGrid.Resources>
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Id Empleado" EditingElementStyle="{StaticResource errorStyle}">
+          <DataGridTextColumn.Binding>
+            <Binding Path="EmpCode" ValidatesOnExceptions="True" UpdateSourceTrigger="PropertyChanged">
+              <Binding.ValidationRules>
+                <vrules:EmployeeValidationRule/>
+              </Binding.ValidationRules>
+            </Binding>
+          </DataGridTextColumn.Binding>
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Comienzo Trabajo" EditingElementStyle="{StaticResource errorStyle}">
+          <DataGridTextColumn.Binding>
+            <Binding Path="BeginWork" ValidatesOnExceptions="True" UpdateSourceTrigger="PropertyChanged">
+              <Binding.ValidationRules>
+                <vrules:DateValidationRule/>
+              </Binding.ValidationRules>
+            </Binding>
+          </DataGridTextColumn.Binding>
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Fin Trabajo" EditingElementStyle="{StaticResource errorStyle}">
+        <DataGridTextColumn.Binding>
+            <Binding Path="EndWork" ValidatesOnExceptions="True" UpdateSourceTrigger="PropertyChanged">
+            <Binding.ValidationRules>
+              <vrules:DateValidationRule/>
+            </Binding.ValidationRules>
+          </Binding>
+        </DataGridTextColumn.Binding>
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Id Descanso" EditingElementStyle="{StaticResource errorStyle}">
+          <DataGridTextColumn.Binding>
+            <Binding Path="BreakCode" ValidatesOnExceptions="True" UpdateSourceTrigger="PropertyChanged">
+              <Binding.ValidationRules>
+                <vrules:BreakCodeValidationRule/>
+              </Binding.ValidationRules>
+            </Binding>
+          </DataGridTextColumn.Binding>
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Comienzo Descanso" EditingElementStyle="{StaticResource errorStyle}">
+          <DataGridTextColumn.Binding>
+            <Binding Path="BeginBreak" ValidatesOnExceptions="True" UpdateSourceTrigger="PropertyChanged">
+              <Binding.ValidationRules>
+                <vrules:DateValidationRule/>
+              </Binding.ValidationRules>
+            </Binding>
+          </DataGridTextColumn.Binding>
+        </DataGridTextColumn>
+        <DataGridTextColumn Header="Fin Descanso" EditingElementStyle="{StaticResource errorStyle}">
+          <DataGridTextColumn.Binding>
+            <Binding Path="EndBreak" ValidatesOnExceptions="True" UpdateSourceTrigger="PropertyChanged">
+              <Binding.ValidationRules>
+                <vrules:DateValidationRule/>
+              </Binding.ValidationRules>
+            </Binding>
+          </DataGridTextColumn.Binding>
+        </DataGridTextColumn>
+        </DataGrid.Columns>
+    </DataGrid>
+  </DockPanel>
+</Page>
